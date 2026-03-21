@@ -1,1 +1,20 @@
-site_name: My Docs
+site_name: CTF Platform Documentation
+site_description: Documentation for CTF infrastructure, challenges, and operations
+site_author: ACM SNIOE Cybersecurity
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Architecture:
+      - Overview: architecture/overview.md
+  - Challenges:
+      - Structure Standard: challenges/challenge-structure.md
+  - Infrastructure:
+      - Deployment: infrastructure/deployment.md
+  - Runbooks:
+      - Deploy CTF: runbooks/deploy-ctf.md
+      - Add Challenge: runbooks/add-challenge.md
+  - Onboarding:
+      - New Member: onboarding/new-member.md

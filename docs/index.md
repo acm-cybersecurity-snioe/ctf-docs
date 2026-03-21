@@ -1,17 +1,29 @@
-# Welcome to MkDocs
+# CTF Platform Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Overview
 
-## Commands
+This documentation covers the architecture, infrastructure, and operational workflows for the CTF platform.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+It is intended for:
+- Team members managing infrastructure
+- Challenge authors
+- Contributors onboarding into the system
 
-## Project layout
+---
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Quick Links
+
+- 🔧 [Architecture Overview](architecture/overview.md)
+- 🚀 [Deployment Process](infrastructure/deployment.md)
+- 🛠️ [Deploy CTF Runbook](runbooks/deploy-ctf.md)
+- ➕ [Add Challenge](runbooks/add-challenge.md)
+
+---
+
+## Repositories
+
+- `ctf-infra` → infrastructure setup and configuration
+- `ctf-challenges` → challenge implementations
+- `ctf-docs` → documentation (this repo)
+
+---
