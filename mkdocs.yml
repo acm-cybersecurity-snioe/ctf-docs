@@ -1,6 +1,7 @@
 site_name: CTF Platform Documentation
 site_description: Documentation for CTF infrastructure, challenges, and operations
 site_author: ACM SNIOE Cybersecurity
+site_url: https://acm-cybersecurity-snioe.github.io/ctf-docs/
 
 theme:
   name: material
